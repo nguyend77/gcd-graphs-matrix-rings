@@ -37,7 +37,7 @@ $$
 The gcd-graph is the Cayley graph
 
 $$
-\Gamma\!\left(M_n(\mathbb{F}_q), S\right),
+\Gamma(M_n(\mathbb{F}_q), S),
 $$
 
 with:
@@ -162,4 +162,4 @@ All tested cases passed.
 
 ---
 
-Please send any feedback/suggestion to Dung Nguyen (<dnguy9448@365.elmhurst.edu>) 
+Please send any feedback/suggestion to Dung Nguyen (<dnguy9448@365.elmhurst.edu>).
