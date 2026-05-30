@@ -25,7 +25,7 @@ $$
 and for each $1 \le k \le n$, define
 
 $$
-V_k = \{ A \in M_n(\mathbb{F}_q) \mid \operatorname{rank}(A)=k \}.
+V_k = \{ A \in M_n(\mathbb{F}_q) \mid \text{rank}(A)=k \}.
 $$
 
 For a set of ranks $I \subseteq \{1,\dots,n\}$, define the generating set
@@ -42,7 +42,7 @@ $$
 
 with:
 - vertex set: all matrices in $M_n(\mathbb{F}_q)$,
-- adjacency: $A$ and $B$ are adjacent iff $\operatorname{rank}(A-B) \in I$.
+- adjacency: $A$ and $B$ are adjacent iff $\text{rank}(A-B) \in I$.
 
 ---
 
@@ -95,8 +95,8 @@ which constructs $\Gamma(M_2(\mathbb{F}_2), V_2)$, and saves the plotted graph a
 The notebook implements the matrix decomposition techniques described in `Lemma 3.6`, `Lemma 3.9`, and `Theorem 3.11` from the paper. The following function constructs matrices $X_m, X_k \in M_n(\mathbb{F}_q)$ such that:
 
 $$
-\operatorname{rank}(X_m)=m,\quad
-\operatorname{rank}(X_k)=k,\quad
+\text{rank}(X_m)=m,\quad
+\text{rank}(X_k)=k,\quad
 X_m + X_k = I_n(r),
 $$
 
